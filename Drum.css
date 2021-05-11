@@ -1,0 +1,68 @@
+body {
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px;
+}
+
+  .keys {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin: 3px;
+    text-align:center;
+    display: inline-block;
+    position: relative;
+  }
+  .key {
+    transition:all 0.07s;
+    display: inline-block;
+    position: relative;
+
+    background-color: rgb(24, 142, 165);
+    min-height: 60px;
+    min-width: 60px;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgb(92, 206, 224);
+    border-style: solid;
+  }
+  
+  .keydown {
+   transform: scale(1.5);
+   border-color: rgb(232, 118, 232);
+  }
+  
+  .letter{
+    font-size: 30px;
+  }
+  #A{
+      background-color:lightpink;
+  }
+  #S{
+    background-color: lightgreen;
+}
+#D{
+    background-color: lightyellow;
+}
+#F{
+    background-color: rgb(158, 158, 35);
+}
+#G{
+    background-color: rgb(206, 124, 70);
+}
+#H{
+    background-color: rgb(202, 202, 56);
+}
+#J{
+    background-color: burlywood;
+}
+#K{
+    background-color: rgb(50, 179, 140);
+}
+#L{
+    background-color: rgb(161, 63, 132);
+}
